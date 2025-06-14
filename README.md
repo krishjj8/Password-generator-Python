@@ -6,8 +6,8 @@ This is a simple Python project that generates secure, random passwords. It comb
 
 You can see examples of the generated passwords and their strength in the screenshots below:
 
-- screenshot1.png
-- screenshot2.png
+- ![Password Output](Screenshot From 2025-06-14 16-27-37.png)
+
 
 ## Features
 
