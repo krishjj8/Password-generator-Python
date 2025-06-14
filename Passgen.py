@@ -22,7 +22,7 @@ def create_password(num_words=2, num_numbers=4, num_special=1):
         pass_str += str(randint(0, 9))
     for _ in range(num_special):
         pass_str += choice(special_chars)
-    return pass_str  # ✅ critical to return
+    return pass_str  
 
 def main():
     pass_str = create_password()
@@ -31,5 +31,5 @@ def main():
     print('\nPassword: %s' % pass_str)
     print('Strength: %0.5f' % strength)
 
-if __name__ == '__main__':  # ✅ correct for Python 3
+if __name__ == '__main__':  
     main()
